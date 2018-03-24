@@ -9,15 +9,15 @@
    "type": "REST",
    "lang": {
        "en-US": {
-           "name": "{{ACTIVITY_NAME}}",
-           "description": "{{ACTIVITY_DESCRIPTION}}"
+           "name": "send sms",
+           "description": "send sms to tencent server"
        }
    },
    "arguments": {
        "execute": {
            "inArguments": [{ "eventData":"{{Context.PublicationId}}"}],
            "outArguments": [],
-           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/execute",
+           "url": "https://tencentsms.herokuapp.com/ixn/activities/hello-world/execute",
 		   "verb": "POST",
 		   "body": "",
             "format": "json",
@@ -28,21 +28,21 @@
    "configurationArguments": {
        "applicationExtensionKey": "{{KEY}}",
        "save": {
-           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/save",
+           "url": "https://tencentsms.herokuapp.com/ixn/activities/hello-world/save",
 		   "verb": "POST",
 			"body": "",
             "format": "json",
             "useJwt": false
        },
        "publish": {
-           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/publish",
+           "url": "https://tencentsms.herokuapp.com/ixn/activities/hello-world/publish",
 		   "verb": "POST",
 			"body": "",
             "format": "json",
             "useJwt": false
        },
        "validate": {
-           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/validate",
+           "url": "https://tencentsms.herokuapp.com/ixn/activities/hello-world/validate",
 		   "verb": "POST",
 			"body": "",
             "format": "json",
@@ -50,7 +50,7 @@
        }
    },
    "edit": {
-		"url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/",
+		"url": "https://tencentsms.herokuapp.com/ixn/activities/hello-world/",
 		"height": 400,
 		"width": 500
 	}
