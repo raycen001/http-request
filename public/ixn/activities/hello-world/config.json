@@ -26,7 +26,7 @@
        }
    },
    "configurationArguments": {
-       "applicationExtensionKey": "CNuYHZM0nRagMz_RMBIwOIyrHmjBALOq9K7gICI7UY_--_tdtcBLyP0PQY4CFLW41wCTx8mGJWinWdBnaJUyMH3o6JIQK8qdSofVDevntFat_tCNynyNz2RoP_xEzgY7u-aJpVfxze0OuSFvk5Wg7kiLjanoD3SqDI08TymQm62Cb1fL3URavfxIVpnXLclu1bVbIahuwFqOmYaFetSy0zbTLFDDYxg9yGLrBvXC_aOcf4rVHNDGlyC8vv6YLQ2",
+       "applicationExtensionKey": "59b38a1d-1394-4e77-928d-137c7223e1ed",
        "save": {
            "url": "https://tencentsms.herokuapp.com/ixn/activities/hello-world/save",
 		   "verb": "POST",
